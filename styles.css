@@ -63,3 +63,11 @@ body {
   color: var(--color-dark);
   margin-bottom: 16px;
 }
+
+.section-heading p {
+  font-size: 14px;
+  color: var(--color-gray);
+  max-width: 570px;
+  margin: 0 auto;
+  line-height: 24px;
+}
