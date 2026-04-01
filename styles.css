@@ -116,3 +116,20 @@ body {
   text-decoration: none;
   letter-spacing: 0.01em;
 }
+
+.nav-links a:hover {
+  color: var(--color-white);
+}   
+
+.nav-social {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.nav-social a {
+  color: var(--color-white);
+  text-decoration: none;
+  opacity: 0.3;
+  font-size: 14px;
+}
