@@ -83,3 +83,15 @@ body {
   top: 0;
   z-index: 100;
 }
+
+.nav-inner {
+  background: var(--color-nav);
+  border-radius: 0 0 8px 8px;
+  max-width: 1110px;
+  margin: 0 auto;
+  padding: 0 24px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
