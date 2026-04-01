@@ -95,3 +95,10 @@ body {
   align-items: center;
   justify-content: space-between;
 }
+
+.nav-logo {
+  font-family: var(--font-body);
+  font-size: 14px;
+  color: var(--color-white);
+  text-decoration: none;
+}
