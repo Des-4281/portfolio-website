@@ -137,3 +137,8 @@ body {
 .nav-social a:hover {
   opacity: 1;
 }
+
+.hero {
+  background: var(--color-dark);
+  padding: 80px 0;
+}
