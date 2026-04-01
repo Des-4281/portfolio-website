@@ -75,3 +75,11 @@ body {
 .section-heading-light h2 {
   color: var(--color-white);
 }
+
+.navbar {
+  width: 100%;
+  padding: 0 85px;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
