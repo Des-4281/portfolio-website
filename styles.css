@@ -108,3 +108,11 @@ body {
   display: flex;
   gap: 70px;
 }
+
+.nav-links a {
+  font-family: var(--font-body);
+  font-size: 14px;
+  color: var(--color-gray);
+  text-decoration: none;
+  letter-spacing: 0.01em;
+}
