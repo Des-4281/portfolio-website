@@ -4,3 +4,17 @@
   box-sizing: border-box;
 }
 
+:root {
+  --color-dark: #080808;
+  --color-nav: #1B1B1B;
+  --color-white: #ffffff;
+  --color-gray: #9C9C9C;
+  --color-green: #3F8E00;
+  --color-green-border: #62BA1B;
+  --color-orange: #FFA217;
+  --color-blue: #000AFF;
+  --color-teal: #2AB090;
+
+  --font-heading: 'Raleway', sans-serif;
+  --font-body: 'IBM Plex Mono', monospace;
+  }
