@@ -71,3 +71,7 @@ body {
   margin: 0 auto;
   line-height: 24px;
 }
+
+.section-heading-light h2 {
+  color: var(--color-white);
+}
