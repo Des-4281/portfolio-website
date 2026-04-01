@@ -45,6 +45,8 @@ body {
   padding: 10px 24px;
   cursor: pointer;
   text-decoration: none;
+  justify-content: center;
+  box-shadow: 0px 8px 30px rgba(63, 142, 0, 0.3);
 }
 
 .btn-primary:hover {
@@ -138,6 +140,10 @@ body {
   opacity: 1;
 }
 
+.nav-social a i {
+  font-size: 16px;
+}
+
 .hero {
   background: var(--color-dark);
   padding: 80px 0;
@@ -177,6 +183,8 @@ body {
     padding: 21px 64px;
     font-size: 16px;
     width: fit-content;
+    justify-content: center;
+    box-shadow: 0px 8px 30px rgba(63, 142, 0, 0.3);
 }
 
 .hero-photo {
@@ -204,3 +212,5 @@ body {
     color: var(--color-white);
     margin-bottom: 16px;
 }
+
+
