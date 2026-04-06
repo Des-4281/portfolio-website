@@ -47,6 +47,8 @@ body {
   text-decoration: none;
   justify-content: center;
   box-shadow: 0px 8px 30px rgba(63, 142, 0, 0.3);
+  width: 310px;
+  height: 63px;
 }
 
 .btn-primary:hover {
@@ -181,7 +183,7 @@ body {
 }
 
 .btn-large {
-    padding: 21px 64px;
+    padding: 14px 48px;
     font-size: 16px;
     width: fit-content;
     justify-content: center;
@@ -189,8 +191,8 @@ body {
 }
 
 .hero-photo {
-    width: 300px;
-    height: 300px;
+    width: 340px;
+    height: 340px;
     border-radius: 50%;
     overflow: hidden;
     flex-shrink: 0;
@@ -332,12 +334,33 @@ body {
 }
 
 .testimonial-card {
-    border: 1px solid #2a2a2a;
     border-radius: 6px;
     padding: 30px;
     display: flex;
     flex-direction: column;
     gap: 16px;
+    background-color: var(--color-dark);
+    position: relative;  
+}
+
+.testimonial-card::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: 6px;
+  padding: 1px;
+  background: linear-gradient(
+    135deg,
+    #3a3a3a 0%,
+    #2a2a2a 40%,
+    transparent 100%
+  );
+  -webkit-mask: 
+    linear-gradient(#fff 0 0) content-box, 
+    linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  pointer-events: none;
 }
 
 .quote-mark {
@@ -345,6 +368,9 @@ body {
     font-size: 100px;
     line-height: 1;
     color: var(--color-white);
+    position: absolute;
+    top: -20px;
+    left: 20px;
 }
 
 .quote-text {
