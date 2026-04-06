@@ -622,6 +622,42 @@ body {
   padding: 4px;
 }
 
+@media (max-width: 1170px) {
+  .navbar {
+    padding: 0 24px;
+  }
+
+  .nav-inner {
+    max-width: none;
+    padding: 14px 16px;
+    flex-wrap: wrap;
+    gap: 16px;
+    justify-content: space-between;
+  }
+
+  .nav-links {
+    gap: min(70px, 4vw);
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .nav-links a {
+    white-space: nowrap;
+  }
+
+  .nav-social {
+    gap: 12px;
+  }
+
+  .hero-inner {
+    padding: 0 24px;
+  }
+
+  .hero-logos {
+    padding: 0 24px;
+  }
+}
+
 @media (max-width: 900px) {
   .container {
     padding: 0 24px;
@@ -653,6 +689,8 @@ body {
   .nav-links.active,
   .nav-social.active {
     display: flex;
+    align-items: center;
+    text-align: center;
   }
 
   .nav-links {
